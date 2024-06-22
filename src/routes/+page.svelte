@@ -17,6 +17,7 @@
     </div>
     <Button
       class="rounded-3xl bg-[#0095ff] text-white ease-in-out duration-500 hover:bg-blue-600"
+      href="/app/forecast"
       >Get Started</Button
     >
   </div>
