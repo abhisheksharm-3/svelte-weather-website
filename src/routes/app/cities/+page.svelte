@@ -1,7 +1,7 @@
 <script></script>
 
 <svelte:head>
-  <title>Forecast</title>
+  <title>Cities</title>
   <meta name="description" content="Weather Website" />
 </svelte:head>
-<div class="container">Forecast</div>
+<div class="container">Cities</div>

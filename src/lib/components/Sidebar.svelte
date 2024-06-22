@@ -12,44 +12,45 @@
     class="w-[3%] animate-spin-slow absolute"
   />
 
-  <div
-    class="mt-32 flex flex-col items-center justify-center group text-gray-400 "
+  <a
+    class="mt-32 flex flex-col items-center justify-center group text-gray-400 cursor-pointer"
+    href="/app/forecast"
   >
-    <CloudSunRain class="group-hover:text-white ease-in-out duration-500 " /><Button
+    <CloudSunRain
+      class="group-hover:text-white ease-in-out duration-500 "
+    /><Button
       variant="ghost"
       class="group-hover:text-white group-hover:bg-transparent ease-in-out duration-500 "
     >
       Weather</Button
     >
-  </div>
-  <div
-    class="flex flex-col items-center justify-center group text-gray-400 "
-  >
+  </a>
+  <a class="flex flex-col items-center justify-center group text-gray-400 cursor-pointer" href="/app/cities">
     <List class="group-hover:text-white ease-in-out duration-500 " /><Button
       variant="ghost"
       class="group-hover:text-white group-hover:bg-transparent ease-in-out duration-500 "
+      
     >
       Cities</Button
     >
-  </div>
-  <div
-    class="flex flex-col items-center justify-center group text-gray-400 "
-  >
+  </a>
+  <a class="flex flex-col items-center justify-center group text-gray-400 cursor-pointer" href="/app/map">
     <Map class="group-hover:text-white ease-in-out duration-500 " /><Button
       variant="ghost"
       class="group-hover:text-white group-hover:bg-transparent ease-in-out duration-500 "
     >
       Map</Button
     >
-  </div>
-  <div
-    class="flex flex-col items-center justify-center group text-gray-400"
-  >
-    <SlidersHorizontal class="group-hover:text-white ease-in-out duration-500 " /><Button
+  </a>
+  <a class="flex flex-col items-center justify-center group text-gray-400 cursor-pointer" href="/app/settings">
+    <SlidersHorizontal
+      class="group-hover:text-white ease-in-out duration-500 "
+    /><Button
       variant="ghost"
       class="group-hover:text-white group-hover:bg-transparent ease-in-out duration-500 "
+      
     >
-      Weather</Button
+      Settings</Button
     >
-  </div>
+  </a>
 </aside>
